@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sign-in-up.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="./js/sign-up-validation.js" defer></script>
+    <title>S'inscrire</title>
+</head>
+
+<body class="form-page d-flex">
+    <img src="./images/form-page/mobile-tablet/Group 107.svg" class="illustration-form" alt="">
+
+    <div class="container-illustration">
+        <div class="desktop-illustration">
+            <h2>Content de vous voir !</h2>
+
+            <img src="./images/form-page/desktop/solar system.svg" class="solar" alt="">
+            <img src="./images/form-page/desktop/undraw_Sign_in_re_o58h 1.svg" class="person" alt="">
+            <img src="./images/form-page/desktop/waves.svg" class="waves" alt="">
+        </div>
+    </div>
+    <div class="container-form d-flex">
+
+        <div class="form-container">
+
+            <form method="POST">
+                <div class="logo-container">
+                    <img src="./images/index/logo.svg" alt="Logo">
+                    <h1>Bienvenue à<br> toi !</h1>
+                </div>
+                <div class="redirection-link mb-4">
+                    <span>Déjà un compte ? </span>/ <a href="/sign-in.html" class="fw-bold ">Se connecter</a>
+                </div>
+                <div class="input-container ">
+                    <label for="email">Adresse mail</label>
+                    <input type="email" name="email" id="email">
+                    <p class="error-msg"></p>
+                </div>
+                <div class="input-container">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" name="password" id="password">
+                    <p class="error-msg"></p>
+                </div>
+                <div class="input-container">
+                    <label for="password2">Retaper le mot de passe</label>
+                    <input type="password" name="password2" id="password2">
+                    <p class="error-msg"></p>
+                </div>
+                <button type="submit" class="btn-100 btn-blue">S'inscrire</button>
+                <button class="btn-100 btn-fb">
+                    <img src="./images/form-page/icomoon-free_facebook.svg" alt="facebook">
+                    <span>S'inscrire avec Facebook</span>
+                    </a>
+                    <button class="btn-100 btn-goo">
+                        <img src="./images/form-page/grommet-icons_google.png" alt="google">
+                        <span>S'inscrire avec Google</span>
+                    </button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
